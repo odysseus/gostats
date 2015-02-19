@@ -7,10 +7,6 @@ import (
 
 func main() {
 	fmt.Println("Hello, stats!")
-	fi := FloatIndex{}
-	fi.Put(3)
-	fi.Put(3)
-	fmt.Println(fi.Get(3))
 }
 
 // Basic statistical function on slices of float64
